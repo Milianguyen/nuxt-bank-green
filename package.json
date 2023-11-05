@@ -39,6 +39,5 @@
     "slice-machine-ui": "^1.6.0",
     "stripe": "^12.8.0",
     "vite-plugin-eslint": "^1.8.1"
-  },
-  "dependencies": {}
+  }
 }
