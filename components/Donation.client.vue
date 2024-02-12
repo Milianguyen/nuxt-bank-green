@@ -19,7 +19,7 @@
     >
       <PrismicText
         wrapper="span"
-        :field="donationData.data['donation-button']"
+        :field="donationData.data['donation_button']"
       />
     </NuxtLink>
   </div>
@@ -39,4 +39,5 @@ const { client } = usePrismic()
 const { data: donationData } = await useAsyncData('donation', () =>
   client.getSingle('donationpage')
 )
+
 </script>
